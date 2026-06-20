@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Akshay CP</title>
+<meta name="description" content="Get in touch with Akshay CP for graphic design, motion graphics, UI/UX or AI content projects.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link rel="stylesheet" href="../style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/bundled/lenis.min.js"></script>
+<noscript><style>.loader{display:none!important;}</style></noscript>
+</head>
+<body>
+
+<div class="loader">
+  <div class="loader-mark">Akshay CP Studio</div>
+  <div class="loader-pct">00</div>
+  <div class="loader-track"><div class="loader-bar"></div></div>
+</div>
+
+<div class="cursor-glow"></div>
+<div class="cur-ring"></div>
+<div class="cur-dot"></div>
+
+<nav>
+  <a href="../index.html" class="logo"><span class="dot"></span>AKSHAY<span>CP</span></a>
+  <div class="hamburger"><span></span><span></span><span></span></div>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="experience.html">Experience</a></li>
+    <li><a href="contact.html" class="active">Contact</a></li>
+  </ul>
+  <div class="nav-right">
+    <div class="tc"><span class="dot"></span>REC <span class="tc-readout">00:00:00</span></div>
+    <a href="contact.html" class="nav-cta">Hire Me</a>
+  </div>
+</nav>
+
+<header class="page-head">
+  <div class="eyebrow">Contact</div>
+  <h1>Let's start the project.</h1>
+  <p>Send a brief, a date and a budget range if you have one — I'll reply within a day or two with next steps.</p>
+</header>
+
+<section class="section-pad" style="padding-top:10px;">
+  <div class="contact-wrapper">
+
+    <div class="contact-info reveal">
+      <div class="contact-box">
+        <i class="fa-solid fa-envelope"></i>
+        <div class="cb-label">Email</div>
+        <a href="mailto:akshaycp6798@gmail.com">akshaycp6798@gmail.com</a>
+      </div>
+      <div class="contact-box">
+        <i class="fa-solid fa-phone"></i>
+        <div class="cb-label">Phone</div>
+        <a href="tel:+917907463970">+91 7907463970</a>
+      </div>
+      <div class="contact-box">
+        <i class="fa-solid fa-location-dot"></i>
+        <div class="cb-label">Based In</div>
+        <span class="cb-value">Kerala, India · Remote-friendly</span>
+      </div>
+      <div class="contact-box">
+        <i class="fab fa-behance"></i>
+        <div class="cb-label">Portfolio</div>
+        <a href="https://www.behance.net/akshay_cp" target="_blank" rel="noopener">behance.net/akshay_cp</a>
+      </div>
+    </div>
+
+    <form class="contact-form reveal">
+      <div class="form-row">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="you@email.com" required>
+        </div>
+      </div>
+
+      <div>
+        <label for="project">Project Type</label>
+        <select id="project" name="project">
+          <option value="Graphic Design">Graphic Design</option>
+          <option value="UI / UX Design">UI / UX Design</option>
+          <option value="Motion Graphics">Motion Graphics</option>
+          <option value="AI Content Creation">AI Content Creation</option>
+          <option value="Something Else">Something Else</option>
+        </select>
+      </div>
+
+      <div>
+        <label for="message">Project Details</label>
+        <textarea id="message" name="message" placeholder="What are you building, and by when?" required></textarea>
+      </div>
+
+      <button type="submit">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+      <p class="form-note">Opens your email app with this filled in — nothing is sent automatically.</p>
+    </form>
+
+  </div>
+</section>
+
+<footer>
+  <div class="footer-top">
+    <div>
+      <div class="footer-logo">AKSHAY<span>CP</span></div>
+      <p class="footer-tag">Graphic design, motion graphics and UI/UX from Kerala, India — for brands anywhere.</p>
+    </div>
+    <div class="socials">
+      <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="https://www.behance.net/akshay_cp" target="_blank" rel="noopener" aria-label="Behance"><i class="fab fa-behance"></i></a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 AKSHAY CP. ALL RIGHTS RESERVED.</span>
+    <span>SESSION <span class="tc-readout">00:00:00</span></span>
+  </div>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>
